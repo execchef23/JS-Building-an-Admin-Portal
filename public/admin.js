@@ -17,7 +17,7 @@ function renderBook(book) {
     li.textContent = book.title
 
     let quantityInput = document.createElement('input')
-    quantityInput.value = book.quantityInput
+    quantityInput.value = book.quantity
 
     let saveButton = document.createElement('button')
     saveButton.textContent = 'save'

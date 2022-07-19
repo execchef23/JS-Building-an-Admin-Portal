@@ -10,7 +10,7 @@ function renderBook(book) {
     let bookContainer = document.querySelector('.book-container')
     bookContainer.innerHTML += `
         <div class="ui card">
-            ${book.imageURL ? `
+            ${book.imageURL ?`
                 <div class="image">
                     <img src="${book.imageURL}" />
                     </div>
